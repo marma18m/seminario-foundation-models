@@ -1,0 +1,4 @@
+.env/
+data/
+model_checkpoints/
+*.DS_Store
