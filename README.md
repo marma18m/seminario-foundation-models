@@ -28,8 +28,13 @@ Primero, debes crear un entorno virtual e instalar las dependecias de sam
 ```bash
 cd seminario-foundation-models/sam
 python -m venv .sam
+# Linux / MacOS o git bash
 source .sam/bin/activate
+# Windows
+.\.sam\Scripts\Activate
+```
 
+```bash
 pip install --upgrade pip
 pip install poetry
 
@@ -55,7 +60,13 @@ Luego lo haremos con el de CLIP:
 ```bash
 cd seminario-foundation-models/faiss
 python -m venv .faiss
+# Linux / MacOS o git bash
 source .faiss/bin/activate
+# Windows
+.\.faiss\Scripts\Activate
+```
+
+```bash
 pip install --upgrade pip
 pip install poetry
 poetry install
