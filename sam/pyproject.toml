@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "sam"
+version = "0.1.0"
+description = ""
+authors = ["marta martinez <marta.martinez@newtral.es>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ipykernel = "^6.29.5"
+opencv-python = "4.7.0.72"
+matplotlib = "3.7.1"
+numpy = "1.24.2"
+segment-anything = "1.0"
+torch = "^2.5.0"
+torchvision = "^0.20.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
