@@ -1,4 +1,8 @@
 .env/
+.test/
 data/
 model_checkpoints/
 *.DS_Store
+sam/.sam
+faiss/.faiss
+test_images/
