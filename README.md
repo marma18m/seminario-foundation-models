@@ -28,7 +28,10 @@ Primero, debes crear un entorno virtual e instalar las dependecias de sam
 ```bash
 cd seminario-foundation-models/sam
 python -m venv .sam
+# Linux / MacOS o git bash
 source .sam/bin/activate
+# Windows
+.\.sam\Scripts\Activate
 
 pip install --upgrade pip
 pip install poetry
@@ -55,7 +58,13 @@ Luego lo haremos con el de CLIP:
 ```bash
 cd seminario-foundation-models/faiss
 python -m venv .faiss
+# Linux / MacOS o git bash
 source .faiss/bin/activate
+# Windows
+.\.faiss\Scripts\Activate
+```
+
+```bash
 pip install --upgrade pip
 pip install poetry
 poetry install
@@ -76,3 +85,15 @@ python -m ipykernel install --user --name=.faiss --display-name="FAISS"
 Cuando ya esté seleccionado, deseactivamos el envirnoment --> deactivate
 
 Ya estamos listos para ejecutar los notebooks
+
+## Descarga de los datos y creación de las carpetas
+
+Descargar los datos el link de drive y crear una carpeta data en la raíz del proyecto.
+
+```bash
+pwd
+# comprobar que estamos en la raíz del proyecto /vuestro/path/seminario-foundation-models
+mkdir data
+```
+
+Y en esa carpeta copiamos lo que se haya extraido del descargable.
